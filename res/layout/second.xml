@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/s3"
+    tools:context="com.example.homeautomator.Second"
+    tools:ignore="MergeRootFrame" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginRight="14dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:onClick="third"
+        android:scaleType="fitCenter"
+         />
+
+</RelativeLayout>
